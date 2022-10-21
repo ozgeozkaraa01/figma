@@ -1,0 +1,26 @@
+.body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e7eae8;
+}
+
+.subContainer {
+  display: flex;
+  gap: 323px;
+  margin-top: 12px;
+}
